@@ -10,7 +10,7 @@ const modalData = {
             title: "Modelo de Mitchel Resnick",
             youtubeId: "Y7YPcmNJ1oo",
             image: "img/img-resnick.png",
-            texto1: "La Espiral del Pensamiento Creativo de Mitchel Resnick es un modelo de aprendizaje activo que se basa en experiencias lúdicas y creativas. Este proceso es continuo y se desarrolla a través de los siguientes pasos principales:",
+            texto1: "La espiral del Pensamiento Creativo de Mitchel Resnick es un modelo de aprendizaje activo que se basa en experiencias lúdicas y creativas. Este proceso es continuo y se desarrolla a través de los siguientes pasos principales:",
             texto2: "Esta espiral favorece el desarrollo de la creatividad, la expresión, la resolución de problemas y el pensamiento crítico, permitiendo que el aprendizaje artístico sea significativo y centrado en el proceso de exploración y descubrimiento.",
             vinetas: [
                 { titulo: "Imaginar", desc: "El proceso inicia cuando las personas estudiantes imaginan ideas iniciales para sus proyectos." },
