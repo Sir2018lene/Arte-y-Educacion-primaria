@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>Arte y Educación / Artes Plásticas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="main-header" role="banner">
+        <div class="header-side">
+            <img src="img/Imagotipo_MEP_azul_vertical.png" alt="Logotipo Institucional MEP" class="logo-left">
+        </div>
+        <div class="header-center">
+            <img src="img/Logo-artesplast.png" alt="Proyecto Pódcast Arte y Educación - Artes Plásticas">
+        </div>
+        <div class="header-side">
+            <a href="" class="btn-rojo" target="_blank" rel="noopener noreferrer" aria-label="Calificar esta aplicación en línea (se abre en nueva pestaña)">
+                <img src="img/calificame.png" alt="Logotipo Califícame" class="logo-side">
+            </a>
+        </div>
+    </header>
+
+    <nav class="sidebar-nav" role="tablist" aria-label="Navegación principal por secciones">
+        <button role="tab" aria-selected="true" aria-controls="infoHome" id="tab-infoHome" class="tab-btn active" onclick="showInfo(event, 'infoHome')">
+            <img src="img/icono-home.png" alt="" class="btn-icon" aria-hidden="true">
+            <span class="btn-text">Bienvenida</span>
+        </button>
+        <button role="tab" aria-selected="false" aria-controls="info1" id="tab-info1" class="tab-btn" onclick="showInfo(event, 'info1')">
+            <img src="img/icono-modelo.png" alt="" class="btn-icon" aria-hidden="true">
+            <span class="btn-text">Modelo del Programa</span>
+        </button>
+        <button role="tab" aria-selected="false" aria-controls="info2" id="tab-info2" class="tab-btn" onclick="showInfo(event, 'info2')">
+            <img src="img/icono-planeamiento.png" alt="" class="btn-icon" aria-hidden="true">
+            <span class="btn-text">Planeamiento</span>
+        </button>
+        <button role="tab" aria-selected="false" aria-controls="info3" id="tab-info3" class="tab-btn" onclick="showInfo(event, 'info3')">
+            <img src="img/icono-proyecto.png" alt="" class="btn-icon" aria-hidden="true">
+            <span class="btn-text">Componente Proyecto</span>
+        </button>
+        <button role="tab" aria-selected="false" aria-controls="info4" id="tab-info4" class="tab-btn" onclick="showInfo(event, 'info4')">
+            <img src="img/icono-steam.png" alt="" class="btn-icon" aria-hidden="true">
+            <span class="btn-text">Esc. Unidocente</span>
+        </button>
+        <button role="tab" aria-selected="false" aria-controls="info5" id="tab-info5" class="tab-btn" onclick="showInfo(event, 'info5')">
+            <img src="img/icono-recursos.png" alt="" class="btn-icon" aria-hidden="true">
+            <span class="btn-text">Flexibilidad curricular</span>
+        </button>
+        <button role="tab" aria-selected="false" aria-controls="info6" id="tab-info6" class="tab-btn" onclick="showInfo(event, 'info6')">
+            <img src="img/icono-docente.png" alt="" class="btn-icon" aria-hidden="true">
+            <span class="btn-text">Buenas prácticas</span>
+        </button>
+    </nav>
+
+    <main class="container" id="main-content">
+        <section class="info-box">
+
+            <!-- Pantalla 1 HOME -->
+            <article id="infoHome" class="tab-content show" role="tabpanel" aria-labelledby="tab-infoHome">
+                <div class="grid-two-columns">
+                    <div class="column-left">
+                        <h2>Le damos la más cordial bienvenida a este espacio, creado para apoyar la labor docente en la asignatura de Artes Plásticas de Primero y Segundo Ciclos.</h2>
+                        <p>Este repositorio pone a su disposición recursos curriculares y pedagógicos que fortalecen la práctica educativa y favorecen experiencias de aprendizaje significativas.</p>
+                        <p>El arte es un lenguaje fundamental para la niñez, que promueve la creatividad, la expresión, la sensibilidad y el pensamiento crítico.</p>
+                        <p>Reconocemos la valiosa labor docente en la formación integral de las personas estudiantes, mediante prácticas inclusivas, respetuosas y éticas que valoran la diversidad y convierten el aula en un espacio seguro para crear, explorar y aprender.</p>
+                        <p>Le invitamos a utilizar estos recursos como herramientas flexibles para innovar, adaptar propuestas a su contexto y enriquecer la educación artística. Su compromiso y creatividad contribuyen al fortalecimiento de una educación de calidad para todas las personas estudiantes.</p>
+                        <br>
+                        <p>Visite el <strong>sitio web de las asesorías nacionales de Artes Plásticas</strong> para más recursos.</p>
+                        <p>Contáctenos a través de la dirección de correo electrónico <strong>asesorianacional.artesplasticas.dpsc@mep.go.cr</strong></p>
+                    </div>
+                    <div class="column-right media-centered-col">
+                        <div class="youtube-container">
+                            <iframe 
+                                data-yt-id="xSLk457Zot4"
+                                src="" 
+                                title="Video de bienvenida sobre reflexión curricular" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Pantalla 2 MODELO -->
+            <article id="info1" class="tab-content" role="tabpanel" aria-labelledby="tab-info1">
+                <div class="grid-two-columns">
+                    <div class="column-left media-centered-col">
+                        <div class="youtube-container">
+                            <iframe 
+                                data-yt-id="Y7YPcmNJ1oo"
+                                src="" 
+                                title="Video explicativo sobre el proyecto de arte" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <p class="image-caption">Figura 1. Interrelación de las competencias creativas en el entorno áulico actual.</p>
+                    </div>
+                    <div class="column-right">
+                        <h2>Modelo del Programa de Estudios</h2>
+                        <p>Este modelo se presenta en el programa como una guía teórica para los procesos de mediación. Los conocimientos se desarrollan a partir de actividades lúdicas, utilizando el modelo de Mitchel Resnick, donde la actividad implica procesos de imaginar, crear, jugar, compartir y valorar para generar el conocimiento.</p>
+                        <h3>Información de guía académica institucional para el desarrollo de competencias artísticas.</h3>
+                        
+                        <div class="action-area">
+                            <button class="action-btn" onclick="openModal('info1-btn1', 'completo')">Modelo de Mitchel Resnick</button>
+                            <button class="action-btn pdf-secondary-btn" onclick="openModal('info1-btn2', 'completo')">Modelo de Parsons</button>
+                        </div>
+                        <div class="hover-image-container media-centered-col">
+                            <button class="image-hover-wrapper" onclick="openModal('img/modelo-programa.png', 'visualizar_imagen')" aria-label="Ampliar imagen de previsualización del modelo del programa">
+                                <img src="img/modelo-programa.png" alt="Vista previsualización del modelo del programa" class="expandable-hover-img">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Pantalla 3 PLANEAMIENTO -->
+            <article id="info2" class="tab-content" role="tabpanel" aria-labelledby="tab-info2">
+                <h2>Planeamiento didáctico</h2>
+                <p>Seleccione cualquiera de los planes institucionales para visualizar su contenido detallado:</p>
+                
+                <div class="pdf-list-modal" style="margin-top: 20px;">
+                    <div class="pdf-item">
+                        <span>Planeamiento Artes Plásticas - II Trimestre 2026</span>
+                        <button class="action-btn" style="padding: 8px 20px; font-size: 0.9rem;" onclick="openModal('info2_doc1', 'visualizar_pdf')">Ver Contenido</button>
+                    </div>
+
+                    <div class="pdf-item">
+                        <span>Plantilla de Planeamiento Correlacionado</span>
+                        <button class="action-btn" style="padding: 8px 20px; font-size: 0.9rem;" onclick="openModal('info2_doc2', 'visualizar_pdf')">Ver Contenido</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Pantalla 4 PROYECTO -->
+            <article id="info3" class="tab-content" role="tabpanel" aria-labelledby="tab-info3">
+                <div class="grid-two-columns">
+                    <div class="column-left media-centered-col">
+                        <div class="youtube-container">
+                            <iframe 
+                                data-yt-id="LoQea8kcuZk"
+                                src="" 
+                                title="Video explicativo sobre las fases del proyecto" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <p class="image-caption">Figura 2. Video explicativo sobre las fases en el desarrollo de un proyecto en el aula.</p>
+                    </div>
+                    <div class="column-right">
+                        <h2>El componente Proyecto</h2>
+                        <p>El Proyecto en Artes Plásticas se desarrolla mediante tres etapas pedagógicas articuladas, que permiten organizar el proceso creativo de las personas estudiantes de manera progresiva, formativa y contextualizada.</p>
+                        <p>Se recomienda que el proyecto se ejecute durante todo el período, de manera progresiva con los contenidos que se estén desarrollando. Esto permitirá atender adecuadamente los tres momentos que conforman su desarrollo.</p>
+                        <div class="action-area">
+                            <button class="action-btn pdf-secondary-btn" onclick="openModal('info3', 'pdfs')">Explore recursos</button>
+                            <button class="action-btn pdf-secondary-btn" onclick="openModal('info3_faq', 'faq')">Preguntas frecuentes</button>
+                        </div> 
+                    </div>
+                </div>
+            </article>
+
+            <!-- Pantalla 5 UNIDOCENTE -->
+            <article id="info4" class="tab-content" role="tabpanel" aria-labelledby="tab-info4">
+                <div class="top-video-section media-centered-col">
+                    <div class="youtube-container" style="max-width: 700px;">
+                        <iframe 
+                            data-yt-id="Ihj1zGqmONk"
+                            src="" 
+                            title="Video informativo para escuelas unidocentes" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <h2>Escuelas unidocentes</h2>
+                <p>Explore los documentos institucionales:</p>
+
+                <div class="pdf-list-modal" style="margin-top: 20px;">
+                    <div class="pdf-item">
+                        <span>Planeamiento Correlacionado - Artes Plásticas</span>
+                        <button class="action-btn" style="padding: 8px 20px; font-size: 0.9rem;" onclick="openModal('info4_doc1', 'visualizar_pdf')">Ver Contenido</button>
+                    </div>
+
+                    <div class="pdf-item">
+                        <span>Orientaciones Unidocentes - Artes Plásticas</span>
+                        <button class="action-btn" style="padding: 8px 20px; font-size: 0.9rem;" onclick="openModal('info4_doc2', 'visualizar_pdf')">Ver Contenido</button>
+                    </div>
+
+                    <div class="pdf-item">
+                        <span>Cartel de alcance y secuencia - Artes Plásticas</span>
+                        <button class="action-btn" style="padding: 8px 20px; font-size: 0.9rem;" onclick="openModal('info4_doc3', 'visualizar_pdf')">Ver Contenido</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Pantalla 6 FLEXIBILIDAD -->
+            <article id="info5" class="tab-content" role="tabpanel" aria-labelledby="tab-info5">
+                 <h2>Flexibilidad Curricular</h2>
+                
+                <div class="media-centered-col" style="width: 100%; max-width: 700px; margin: 0 auto 20px auto;">
+                    <div class="youtube-container">
+                        <iframe 
+                            data-yt-id="8AVu3EuTbl0"
+                            src="" 
+                            title="Video sobre estrategias de flexibilidad curricular" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <p>Explora materiales complementarios didácticos para el desarrollo de las lecciones artísticas en el aula.</p>
+            </article>
+
+            <!-- Pantalla 7 BUENAS PRÁCTICAS -->
+            <article id="info6" class="tab-content" role="tabpanel" aria-labelledby="tab-info6">
+                <h2>Buenas Prácticas Docentes</h2>
+                <p style="margin-bottom: 25px;">Espacio orientado a destacar la labor trimestral de las personas docentes de Artes Plásticas, socializando sus experiencias y muestras de aula:</p>
+                
+                <div class="docentes-vertical-container">
+                    
+                    <div class="docente-card-split">
+                        <div class="docente-col-left-profile media-centered-col">
+                            <img src="img/perfil01.png" alt="Fotografía de perfil de Jimena Morera Ulate" class="docente-perfil-full-img">
+                        </div>
+                        
+                        <div class="docente-col-right-content">
+                            <div class="docente-info-text">
+                                <h3>Jimena Morera Ulate</h3>
+                                <h4>Escuela Brasil de Mora / Escuela Brasil de Santa Ana</h4>
+                                <p>Licenciada en Enseñanza del Arte y la Comunicación Visual por la Universidad Nacional de Costa Rica, graduada en el año 2017.</p>
+                                <p><strong>Reconocimientos:</strong> En 2016 recibe el reconocimiento como <b>Estudiante Distinguida de la Universidad Nacional de Costa Rica</b>, en mérito a su excelencia académica y compromiso con su formación profesional.</p>
+                                <p>Desde el año 2018 se desempeña como docente en el Ministerio de Educación Pública de Costa Rica, en el área de Educación Primaria.</p>
+                                <p>A lo largo de su trayectoria profesional ha ejercido su labor con vocación, responsabilidad y compromiso, promoviendo el desarrollo integral de sus estudiantes mediante prácticas educativas innovadoras y centradas en el aprendizaje.</p>
+                            </div>
+                            
+                            <div class="docente-galeria-scroll" role="group" aria-label="Galería de muestras de trabajo de Jimena Morera">
+                                <button class="gallery-item-btn" onclick="openModal('img/gal01/img01.png', 'visualizar_imagen')" aria-label="Ampliar muestra 1 de Jimena Morera">
+                                    <img src="img/gal01/img01.png" alt="Muestra de trabajo 1">
+                                </button>
+                                <button class="gallery-item-btn" onclick="openModal('img/gal01/img02.png', 'visualizar_imagen')" aria-label="Ampliar muestra 2 de Jimena Morera">
+                                    <img src="img/gal01/img02.png" alt="Muestra de trabajo 2">
+                                </button>
+                                <button class="gallery-item-btn" onclick="openModal('img/gal01/img03.png', 'visualizar_imagen')" aria-label="Ampliar muestra 3 de Jimena Morera">
+                                    <img src="img/gal01/img03.png" alt="Muestra de trabajo 3">
+                                </button>
+                                <button class="gallery-item-btn" onclick="openModal('img/gal01/img04.png', 'visualizar_imagen')" aria-label="Ampliar muestra 4 de Jimena Morera">
+                                    <img src="img/gal01/img04.png" alt="Muestra de trabajo 4">
+                                </button>
+                                <button class="gallery-item-btn" onclick="openModal('img/gal01/img05.png', 'visualizar_imagen')" aria-label="Ampliar muestra 5 de Jimena Morera">
+                                    <img src="img/gal01/img05.png" alt="Muestra de trabajo 5">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Docente destacada 2 -->
+                    <div class="docente-card-split">
+                        <div class="docente-col-left-profile media-centered-col">
+                            <img src="img/perfil02.png" alt="Fotografía de perfil de Darlyn Sánchez Ríos" class="docente-perfil-full-img">
+                        </div>
+                        <div class="docente-col-right-content">
+                            <div class="docente-info-text">
+                                <h3>Darlyn Sánchez Ríos</h3>
+                                <p><strong>Docente de Artes Plásticas</strong>. Máster en Pedagogía con énfasis en Diversidad en los Procesos Educativos.</p>
+                                <p>Trabaja en el Centro de enseñanza Especial y Rehabilitación de Alajuela y en el centro educativo Graceland School.</p>
+                            </div>
+                            <div class="docente-galeria-scroll" role="group" aria-label="Galería de muestras de trabajo de Darlyn Sánchez">
+                                <button class="gallery-item-btn" onclick="openModal('img/gal02/img01.png', 'visualizar_imagen')" aria-label="Ampliar muestra 1 de Darlyn Sánchez">
+                                    <img src="img/gal02/img01.png" alt="Muestra de trabajo 1">
+                                </button>
+                                <button class="gallery-item-btn" onclick="openModal('img/gal02/img02.png', 'visualizar_imagen')" aria-label="Ampliar muestra 2 de Darlyn Sánchez">
+                                    <img src="img/gal02/img02.png" alt="Muestra de trabajo 2">
+                                </button>
+                                <button class="gallery-item-btn" onclick="openModal('img/gal02/img03.png', 'visualizar_imagen')" aria-label="Ampliar muestra 3 de Darlyn Sánchez">
+                                    <img src="img/gal02/img03.png" alt="Muestra de trabajo 3">
+                                </button>
+                                <button class="gallery-item-btn" onclick="openModal('img/gal02/img04.png', 'visualizar_imagen')" aria-label="Ampliar muestra 4 de Darlyn Sánchez">
+                                    <img src="img/gal02/img04.png" alt="Muestra de trabajo 4">
+                                </button>
+                                <button class="gallery-item-btn" onclick="openModal('img/alegria.png', 'visualizar_imagen')" aria-label="Ampliar muestra de proyecto Alegría">
+                                    <img src="img/icono-proyecto.png" alt="Icono representativo de muestra de proyecto">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="docente-card-split">
+                        <div class="docente-col-left-profile media-centered-col">
+                            <img src="img/usuario.png" alt="Ilustración que invita a participar a nuevas personas docentes" class="docente-perfil-full-img">
+                        </div>
+                        <div class="docente-col-right-content">
+                            <div class="docente-info-text">
+                                <h3>¿Quién será la próxima persona docente destacada?</h3>
+                                <p>Acaso <strong>¿Serás vos?</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+
+        </section>
+    </main>    
+
+    <footer class="main-footer" role="contentinfo">
+        <p>CC-BY-NC-SA 2026 Departamento de Gestión y Producción de Recursos <a href="mailto:gespro@mep.go.cr?subject=Consulta%20Artes%20Plasticas">gespro@mep.go.cr</a> | Descubre más recursos en <a href="https://mochiladigital.mep.go.cr/app/" target="_blank" rel="noopener noreferrer">Mochila Digital (se abre en ventana nueva)</a></p>
+    </footer>
+
+    <!-- MODAL ACCESIBLE -->
+    <div id="customModal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()" aria-label="Cerrar ventana modal">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
