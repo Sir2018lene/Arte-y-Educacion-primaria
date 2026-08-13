@@ -160,64 +160,71 @@
 
             <!-- Pantalla 4 PROYECTO -->
             <article id="info3" class="tab-content" role="tabpanel" aria-labelledby="tab-info3">
-                <div class="grid-two-columns">
-                    <div class="column-left media-centered-col">
-                        <div class="youtube-container">
-                            <iframe 
-                                data-yt-id="LoQea8kcuZk"
-                                src="" 
-                                title="Video explicativo sobre las fases del proyecto" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        <p class="image-caption">Figura 2. Video explicativo sobre las fases en el desarrollo de un proyecto en el aula.</p>
-                    </div>
-                    <div class="column-right">
-                        <h2>El componente Proyecto</h2>
-                        <p>El Proyecto en Artes Plásticas se desarrolla mediante tres etapas pedagógicas articuladas, que permiten organizar el proceso creativo de las personas estudiantes de manera progresiva, formativa y contextualizada.</p>
-                        <p>Se recomienda que el proyecto se ejecute durante todo el período, de manera progresiva con los contenidos que se estén desarrollando. Esto permitirá atender adecuadamente los tres momentos que conforman su desarrollo.</p>
-                        <div class="action-area">
-                            <button class="action-btn pdf-secondary-btn" onclick="openModal('info3', 'pdfs')">Explore recursos</button>
-                            <button class="action-btn pdf-secondary-btn" onclick="openModal('info3_faq', 'faq')">Preguntas frecuentes</button>
-                        </div> 
-                    </div>
+    <div class="grid-two-columns">
+        <div class="column-left media-centered-col">
+            <div class="youtube-container">
+                <iframe 
+                    data-yt-id="LoQea8kcuZk"
+                    src="" 
+                    title="Video explicativo sobre las fases del proyecto" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <p class="image-caption">Figura 2. Video explicativo sobre las fases en el desarrollo de un proyecto en el aula.</p>
+        </div>
+        <div class="column-right">
+            <h2>El componente Proyecto</h2>
+            <p>El Proyecto en Artes Plásticas se desarrolla mediante tres etapas pedagógicas articuladas, que permiten organizar el proceso creativo de las personas estudiantes de manera progresiva, formativa y contextualizada.</p>
+            <p>Se recomienda que el proyecto se ejecute durante todo el período, de manera progresiva con los contenidos que se estén desarrollando. Esto permitirá atender adecuadamente los tres momentos que conforman su desarrollo.</p>
+            <div class="action-area">
+                <a href="txt\El proyecto I y II Ciclos Versión Diagramado.pdf" target="_blank" rel="noopener noreferrer" class="action-btn pdf-secondary-btn" style="text-decoration: none; display: inline-block;">Explore recursos</a>
+                <button class="action-btn pdf-secondary-btn" onclick="openModal('info3_faq', 'faq')">Preguntas frecuentes</button>
+            </div> 
+        </div>
+    </div>
+</article>
+
+<!-- Pantalla 5 UNIDOCENTE -->
+<article id="info4" class="tab-content" role="tabpanel" aria-labelledby="tab-info4">
+    <div class="grid-two-columns">
+        <!-- Columna izquierda: Video con la misma estructura y visualización de info3 -->
+        <div class="column-left media-centered-col">
+            <div class="youtube-container">
+                <iframe 
+                    data-yt-id="Ihj1zGqmONk"
+                    src="" 
+                    title="Video informativo para escuelas unidocentes" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Columna derecha: Texto y lista de documentos -->
+        <div class="column-right">
+            <h2>Escuelas unidocentes</h2>
+            <p>Explore los documentos institucionales:</p>
+
+            <div class="pdf-list-modal" style="margin-top: 20px;">
+                <div class="pdf-item">
+                    <span>Planeamiento Correlacionado - Artes Plásticas</span>
+                    <button class="action-btn" style="padding: 8px 20px; font-size: 0.9rem;" onclick="openModal('info4_doc1', 'visualizar_pdf')">Ver Contenido</button>
                 </div>
-            </article>
 
-            <!-- Pantalla 5 UNIDOCENTE -->
-            <article id="info4" class="tab-content" role="tabpanel" aria-labelledby="tab-info4">
-                <div class="top-video-section media-centered-col">
-                    <div class="youtube-container" style="max-width: 700px;">
-                        <iframe 
-                            data-yt-id="Ihj1zGqmONk"
-                            src="" 
-                            title="Video informativo para escuelas unidocentes" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>
-                        </iframe>
-                    </div>
+                <div class="pdf-item">
+                    <span>Orientaciones Unidocentes - Artes Plásticas</span>
+                    <button class="action-btn" style="padding: 8px 20px; font-size: 0.9rem;" onclick="openModal('info4_doc2', 'visualizar_pdf')">Ver Contenido</button>
                 </div>
-                <h2>Escuelas unidocentes</h2>
-                <p>Explore los documentos institucionales:</p>
 
-                <div class="pdf-list-modal" style="margin-top: 20px;">
-                    <div class="pdf-item">
-                        <span>Planeamiento Correlacionado - Artes Plásticas</span>
-                        <button class="action-btn" style="padding: 8px 20px; font-size: 0.9rem;" onclick="openModal('info4_doc1', 'visualizar_pdf')">Ver Contenido</button>
-                    </div>
-
-                    <div class="pdf-item">
-                        <span>Orientaciones Unidocentes - Artes Plásticas</span>
-                        <button class="action-btn" style="padding: 8px 20px; font-size: 0.9rem;" onclick="openModal('info4_doc2', 'visualizar_pdf')">Ver Contenido</button>
-                    </div>
-
-                    <div class="pdf-item">
-                        <span>Cartel de alcance y secuencia - Artes Plásticas</span>
-                        <button class="action-btn" style="padding: 8px 20px; font-size: 0.9rem;" onclick="openModal('info4_doc3', 'visualizar_pdf')">Ver Contenido</button>
-                    </div>
+                <div class="pdf-item">
+                    <span>Cartel de alcance y secuencia - Artes Plásticas</span>
+                    <button class="action-btn" style="padding: 8px 20px; font-size: 0.9rem;" onclick="openModal('info4_doc3', 'visualizar_pdf')">Ver Contenido</button>
                 </div>
-            </article>
+            </div>
+        </div>
+    </div>
+</article>
 
             <!-- Pantalla 6 FLEXIBILIDAD -->
             <article id="info5" class="tab-content" role="tabpanel" aria-labelledby="tab-info5">
