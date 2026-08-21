@@ -633,3 +633,68 @@ html, body {
     from { opacity: 0; transform: translateY(8px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+
+/* REGLAS DE SEGURIDAD Y AJUSTE DE TEXTO (Evita desbordamiento horizontal) */
+.info-box p, 
+.info-box h2, 
+.info-box h3, 
+.info-box a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.text-break {
+    word-break: break-all; /* Rompe correos o URLs largas si sobrepasan la pantalla del móvil */
+    display: inline-block;
+}
+
+/* UNIFICACIÓN DE CUADRÍCULAS RESPONSIVAS */
+#infoHome .grid-two-columns,
+.grid-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+    width: 100%;
+}
+
+/* RESPONSIVIDAD Y OPTIMIZACIÓN EN MÓVILES */
+@media (max-width: 800px) {
+    .modal-content { 
+        width: 95%; 
+        height: 85vh; 
+    }
+    .container { 
+        width: 100%; 
+        margin: 5px 0; 
+        padding: 5px; 
+    }
+    .info-box {
+        padding: 15px; /* Reducción de relleno en teléfonos para aprovechar espacio */
+        border-width: 5px; /* Borde más delgado para pantallas pequeñas */
+    }
+    /* Fuerza 1 sola columna en móviles para 'infoHome' y demás pantallas */
+    .grid-two-columns, 
+    #infoHome .grid-two-columns { 
+        grid-template-columns: 1fr !important; 
+        gap: 20px; 
+    }
+    .docente-card-split { 
+        grid-template-columns: 1fr; 
+    }
+    .docente-col-left-profile { 
+        border-right: none; 
+        border-bottom: 3px solid #fcda6f; 
+        max-height: 250px; 
+    }
+    .main-header { 
+        padding: 0.5vh 1%; 
+    }
+    .main-footer p { 
+        font-size: 0.75rem; 
+    }
+    .media-centered-col { 
+        position: static; /* Desactiva el fijado sticky en móviles para mantener orden vertical */
+    }
+}
