@@ -192,15 +192,17 @@ html, body {
 .tab-content { display: none; }
 .tab-content.show { display: block; animation: fadeIn 0.5s ease; }
 
-/* REGLAS Y CENTRADO DE MULTIMEDIA ACCESIBLES */
+/* REGLAS Y CENTRADO DE MULTIMEDIA ACCESIBLES (MEJORADO CON STICKY) */
 .media-centered-col {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-self: center;
     text-align: center;
     width: 100%;
+    position: sticky;
+    top: 20px;
+    align-self: start;
 }
 
 /* CONTENEDOR RESPONSIVO DE YOUTUBE (RELACIÓN DE ASPECTO 16:9) */
@@ -227,7 +229,7 @@ html, body {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
-    align-items: center;
+    align-items: start;
     width: 100%;
 }
 
@@ -235,7 +237,7 @@ html, body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    align-items: center;
+    align-items: start;
     width: 100%;
 }
 
@@ -624,6 +626,7 @@ html, body {
     .docente-col-left-profile { border-right: none; border-bottom: 3px solid #fcda6f; max-height: 250px; }
     .main-header { padding: 0.5vh 1%; }
     .main-footer p { font-size: 0.75rem; }
+    .media-centered-col { position: static; } /* Desactiva el sticky en móviles para mantener orden vertical en una sola columna */
 }
 
 @keyframes fadeIn {
